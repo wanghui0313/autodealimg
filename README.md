@@ -1,7 +1,11 @@
-# autodealimg
+# 功能简介
 在线处理图片，缩略，背景色，水印<br/>
 
+# 环境说明
+apache/nginx+php<br>
+php GD库开启<br>
 
+# 使用说明
 请求格式： 图片url?长X宽m[模式数值]bc[颜色值]w[水印位置值]-[水印透明度]-水印图片网络url<br/>
 实例 : http://xxxx.jpg?900x900m3bc200,120,50w5-7-https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png<br/>
 
